@@ -18,5 +18,5 @@ public class Pedido {
     private BigDecimal valorUnitario;
     private BigDecimal valorFrete;
     private String status;
-    private Instant data;
+    private Instant data = Instant.now();
 }
